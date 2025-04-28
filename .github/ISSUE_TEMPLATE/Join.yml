@@ -1,0 +1,55 @@
+name: "Join Request: NMU Computer Society"
+description: "Submit your details to request membership in the NMU Computer Society GitHub organization."
+title: "Join Request: [Your Full Name]"
+labels: ["join-request"]
+assignees:
+  - Passion-Over-Pain
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 👋 Welcome!
+        Please fill in the details below to request to join the NMU Computer Society GitHub organization.
+        Make sure you have registered for your 2025 Computer Society Membership.
+
+  - type: input
+    id: student_number
+    attributes:
+      label: "🎓 Student Number"
+      description: "Enter your NMU student number (e.g., s227284240)."
+      placeholder: "e.g., s227284240"
+    validations:
+      required: true
+
+  - type: input
+    id: first_name
+    attributes:
+      label: "🧑 First Name"
+      description: "Enter your first name."
+      placeholder: "e.g., John"
+    validations:
+      required: true
+
+  - type: input
+    id: surname
+    attributes:
+      label: "👨‍🎓 Surname"
+      description: "Enter your surname."
+      placeholder: "e.g., Doe"
+    validations:
+      required: true
+
+  - type: input
+    id: github_username
+    attributes:
+      label: "🐙 GitHub Username"
+      description: "Enter your GitHub username as seen in your URL (e.g., github.com/Passion-Over-Pain)."
+      placeholder: "e.g., Passion-Over-Pain"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ✅ Once your request is reviewed and verified, you will be added to the organization.  
+        If you have any questions, please reach out to the admins!
